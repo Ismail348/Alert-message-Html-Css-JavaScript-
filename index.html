@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert message</title>
+</head>
+<style>
+   
+
+html, body {
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: cadetblue;
+}
+
+
+button {
+  margin-left: 10px;
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: blueviolet;
+  background-color: black;
+}
+button:hover{
+  color: black;
+  background-color: blueviolet;
+  letter-spacing: 2px;
+  transition: .4s;
+}
+
+</style>
+<body>
+   
+<button id="btn" onclick="func()">Click Me</button> 
+<script>
+    
+
+function func() {
+ alert("Good Morning , Have a Nice Day!");
+}
+</script>
+</body>
+</html>
